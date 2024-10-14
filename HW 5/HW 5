@@ -1,0 +1,18 @@
+matrix = [
+    [56,327,72,9,787,887,78],
+    [36,78,120,80,89,3,4,7],
+    [27,18,90,789,7389,94389,8437,843],
+    [798,878,98789,687,3789,8327,4378]
+]
+number_of_columns = len(matrix[2])
+print("printing 2d list")
+print(matrix)
+#accessing individual items from 2d list
+print(matrix[0][0])
+print(matrix[1][1])
+print(matrix[2][0])
+
+#finding the number of rows in a 2d list
+number_rows_in_list = len(matrix)
+print("This list has {} rows".format(number_rows_in_list))
+print("this list has {} columns".format(number_of_columns)) 
